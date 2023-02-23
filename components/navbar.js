@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function Header({ route }) {
+export default function Navbar() {
   return (
     <ul>
       <li>
-        <Link href={route}>{route}</Link>
+        <Link href="/products">Product</Link>
       </li>
     </ul>
   );
